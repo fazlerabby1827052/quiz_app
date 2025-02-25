@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <div class="container m-auto h-200 bg-gray-100 grid grid-cols-1">
+        <div class="m-10 flex justify-center items-center">
+            <div>
+                <div id="question"></div>
+            <form id="myForm">
+                <input class="mt-2" type="radio" name="option" id="first"><label for="first"><p class="inline" id="lt1"></p></label><br>
+                <input class="mt-2" type="radio" name="option" id="second"><label for="first"><p class="inline" id="lt2"></p></label><br>
+                <input class="mt-2" type="radio" name="option" id="third"><label for="first"><p class="inline" id="lt3"></p></label><br>
+                <input class="mt-2" type="radio" name="option" id="fourth"><label for="first"><p class="inline" id="lt4"></p></label><br>
+                <div class="flex justify-center items-center">
+                    <div>
+                        <button id="button" class="mt-2 bg-cyan-300 p-2 rounded-xl" type="submit">next</button>
+                    </div>
+                    
+                </div>
+                
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
